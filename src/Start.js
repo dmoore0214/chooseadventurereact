@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 function Start(){
     const [name, setName] =useState('');
     
-
     return (
         <div className="start">
         <div className='welcome'>
@@ -21,7 +20,7 @@ function Start(){
                 to the end!  If you would like to continue the journey press the
                 button below!
             </p>
-            <ButtonLink to="/Continue">Continue</ButtonLink>
+            <ButtonLink to="/continue">Continue</ButtonLink>
         </div>
         </div>
     )
