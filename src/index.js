@@ -18,7 +18,7 @@ export default function Game(){
         <Route index element={<Home />}/>
         <Route path="app" element={<App />} />
         <Route path="start" element={<Start />} />
-        <Route path="contine" element={<Continue />} />
+        <Route path="continue" element={<Continue />} />
       </Route>
       </Routes>
       </BrowserRouter>

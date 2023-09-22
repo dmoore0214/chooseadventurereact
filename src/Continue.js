@@ -1,10 +1,11 @@
 import './App.css';
-import name from './Start';
+import Start from './Start';
 
 function Continue(){
+
     return(
         <div className="continue">
-            <h1>Hi {name} </h1>
+            <h1>Hi</h1>
         </div>
         
     )

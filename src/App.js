@@ -1,7 +1,8 @@
 
 import './App.css';
 import { Link } from 'react-router-dom';
-import name from './Start';
+import Continue from './Continue';
+
 function App() {
   
   return (
@@ -9,7 +10,7 @@ function App() {
       <header className="App-header">
         <h1>Choose Your Adventure</h1>
         <ButtonLink to="/start">Click Me To Start!</ButtonLink>
-        <p>{name}</p>
+        <Continue />
       </header>
     </div>
   );
