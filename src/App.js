@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import { Link } from 'react-router-dom';
+import name from './Start';
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Choose Your Adventure</h1>
+        <ButtonLink to="/start">Click Me To Start!</ButtonLink>
+        <p>{name}</p>
       </header>
     </div>
   );
 }
+
+function ButtonLink({ to , children}){
+  return <Link to={to}><button>{children}</button></Link>
+}
+
+
 
 export default App;
