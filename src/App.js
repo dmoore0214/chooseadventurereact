@@ -10,7 +10,6 @@ function App() {
       <header className="App-header">
         <h1>Choose Your Adventure</h1>
         <ButtonLink to="/start">Click Me To Start!</ButtonLink>
-        <Continue />
       </header>
     </div>
   );
